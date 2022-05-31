@@ -39,5 +39,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyCZwqRYci-0qYpAxTCzXstHkWffCm9A_JE",
+        authDomain: "travel-briefing-davyvong-com.firebaseapp.com",
+        projectId: "travel-briefing-davyvong-com",
+        storageBucket: "travel-briefing-davyvong-com.appspot.com",
+        messagingSenderId: "909135387196",
+        appId: "1:909135387196:web:701ce2348e4d4a0c7e4139",
+        measurementId: "G-1MP26F00EP"
+      };
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
