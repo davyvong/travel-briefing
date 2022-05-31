@@ -1,8 +1,8 @@
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/davyvong/travel-briefing/develop/screenshots/no-groupings.png" />
+<img src="https://raw.githubusercontent.com/davyvong/travel-briefing/develop/screenshots/no-groupings.png" width="500" />
 
-<img src="https://raw.githubusercontent.com/davyvong/travel-briefing/develop/screenshots/groupings.png" />
+<img src="https://raw.githubusercontent.com/davyvong/travel-briefing/develop/screenshots/groupings.png" width="500" />
 
 ## Available Scripts
 
